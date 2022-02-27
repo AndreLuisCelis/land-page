@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/menu-de-bebidas.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Cardapio On line</title>
+  </head>
+  <body>
+    <div id="topo"></div>
+      <header >
+        <div class="header">
+          <h1>Cardapio facil</h1>
+        <nav>
+          <ul id="menu-desktop" hidden = 'true'>
+            <li><a href="#topo">Top</a></li>
+            <li>  <a href="#vantagens">Vantagens</a></li>
+            <li><a href="#emulador"> Demonstração</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+          <i id="btn-menu-mobile" class="bi bi-three-dots-vertical" hidden='true'>
+          <ul id="menu-mobile">
+            <li><a href="#topo">Top</a></li>
+            <li>  <a href="#vantagens">Vantagens</a></li>
+            <li><a href="#emulador"> Demonstração</a></li>
+            <li><a href="#contato">Contato</a></li>
+            
+          </ul>
+        </i>
+        </nav>
+        </div>
+        <hr>
+      </header>
+
+
+      <!-- CARROSSEL -->
+        <section id="section-carrossel">
+          <div class="container">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/bar.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption  d-md-block">
+                    <h5> Ferramenta</h5>
+                    <p>Excelente , ideal para o seu estabelecimento.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/pizzaria.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption  d-md-block">
+                    <h5>Comodidade e rapides</h5>
+                    <p>Muito mais facilidade para seus clientes.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/restaurante.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption  d-md-block">
+                    <h5>Prático e Automatizado</h5>
+                    <p>Pedido realizado com apenas poucos cliques.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="vantagens" class="vantagens">
+          <div class="container pt-3">
+
+            <div class="row px-5 pb-2 p-md-5">
+              <div class="col-12 col-md-5">
+                <img src="./assets/ecommerce.jpg"  width='100%'alt="">
+              </div>
+              <div class="col-12 col-md-7 d-flex align-items-center">
+                <p class="text-center py-3">
+                  Tenha seu cardápio sempre na mão dos seus clientes , com muita praticidade <b>é facil fazer o pedido</b>  .
+                </p>
+              </div>
+            </div>
+
+            <div class="row px-5 pb-2 p-md-5  flex-column-reverse flex-md-row">
+              <div class="col-md-7 d-flex align-items-center">
+                <p class="text-center py-3">
+                Adicione o sistema no whatsapp e demais redes sociais ,
+                 automatize o atendimento reduza os custos ,
+                  <b>aumente o lucro</b>  , não perca nenhum pedido.
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img src="./assets/manpensando.jpg"  width='100%'alt="">
+              </div>
+            </div>
+
+            <div class="row px-5 pb-2 p-md-5">
+              <div class="col-md-5">
+                <img src="./assets/chart-gf.jpg"  width='100%'alt="">
+              </div>
+              <div class="col-md-7 d-flex align-items-center">
+                <p class="text-center py-3">
+                  Reduza seus custos , diminua os gastos com taxas e percentuais por pedido das 
+                  grandes plataformas de delivery , <b>Tenha o seu próprio sistema</b> livre de 
+                  taxas
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- EXEMPLO -->
+        <section id ='emulador'class="emulador">
+          <h1>Veja uma demonstração</h1>
+          <div class="celular" >
+            <iframe src="https://celisaplicativos.com.br/wordpress/" frameborder="0"></iframe>
+          </div>
+        </section>
+
+
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+         <h1>Entre em contato</h1>
+          <div class="mb-3">
+            <label for="messageMail" class="form-label">Menssagem</label>
+            <textarea class="form-control" id="messageMail" rows="3"></textarea>
+          </div>
+          <div class="botoes">
+            <button class ='btn btn-large btn-primary' onclick="sendMail()">Enviar <i class="bi bi-envelope"></i></button>
+            <button class ='btn btn-large btn-success' onclick="sendWhats()">Enviar <i class="bi bi-whatsapp"></i></button>
+          </div>
+        </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+    
+  </body>
+</html>
